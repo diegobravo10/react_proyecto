@@ -1,0 +1,69 @@
+h1{
+    color: blue;
+}
+
+.App{
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #42a5b9;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e0f7fa;
+  }
+  h2{
+    font-size: 30px;
+    color: rgb(50, 132, 173);
+    font-family: fantasy;
+  }
+
+  
+  label, input {
+    margin: 10px;
+}
+label{
+    font-weight: bold;
+} 
+
+button{
+    background:rgb(56, 140, 143);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(104, 150, 154);
+    padding: 4px;
+}
+
+#botones button {
+  margin-right: 10px; 
+  font-size: 15px;
+}
