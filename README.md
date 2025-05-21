@@ -39,32 +39,38 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## CREAR UN PROYECTO  
+Para crear un proyecto en react ser usa el siguiente comando: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```branch
+npx create-react-app nombreapp
+```
+Instalamos el firebase 
+```branch
+npm install firebase
+```
+En este caso, usamos el firebase.js para la configuracion el firestore database
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## HOSTING
+ Instala la CLI de Firebase:
+```bash
+npm install -g firebase-tools
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+b. Inicia sesión:
+```bash
+firebase login
+```
+c. Inicializa Firebase Hosting:
+```bash
+firebase init
+```
+Luego:
+```bash
+npm run build
+```
+Y hacemos un deploy 
+```bash
+firebase deploy
+```
