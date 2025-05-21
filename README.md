@@ -57,6 +57,7 @@ En este caso, usamos el firebase.js para la configuracion el firestore database
 ```bash
 npm install -g firebase-tools
 ```
+En la carpeta publica, aqui va ```build```
 
 b. Inicia sesión:
 ```bash
